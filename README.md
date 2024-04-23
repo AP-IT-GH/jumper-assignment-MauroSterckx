@@ -24,16 +24,16 @@
 ### Jumper setup
 11. Zorg voor de volgende parameters voor de jumper:
 <br>
-![img](src/img2.png)
+![img2](img2.png)
 <br>
-![img](src/img3.png)
+![img3](img3.png)
 
 ### Jumper script
 12. Clone het jumperscript vanuit dit project en plaats het in je unity project folder
 13. Clone de configfile vanuit dit project en plaats dit in de folder 'config'
 14. Zorg voor de volgende parameters
 <br>
-![img](src/img4.png)
+![img4](img4.png)
 
 ### Anaconda
 14. Open je Anaconda environment 
