@@ -17,4 +17,26 @@
 
 ### Import ML Package
 8. Open de Unity Package manager (window > package manager)
-9. Klik linksboven op de Packages en zorg dat je 'In Registery' hebt geselecteerd
+9. Klik linksboven op de Packages en zorg dat je 'In Registery' hebt geselecteerd, zie foto <br>
+![img](src/image.png)
+10. Selecteer en installeer de ML agents package
+
+### Jumper setup
+11. Zorg voor de volgende parameters voor de jumper:
+<br>
+![img](src/img2.png)
+<br>
+![img](src/img3.png)
+
+### Jumper script
+12. Clone het jumperscript vanuit dit project en plaats het in je unity project folder
+13. Clone de configfile vanuit dit project en plaats dit in de folder 'config'
+14. Zorg voor de volgende parameters
+<br>
+![img](src/img4.png)
+
+### Anaconda
+14. Open je Anaconda environment 
+15. cd naar je projectfolder
+16. Plak dit commando: ```mlagents-learn Config/CubeAgent.yaml --run-id=CubeAgent --resume``` in de terminal
+17. Navigeer terug naar unity en druk Play, nu zou de jumper moeten jumpen over de obstacels
